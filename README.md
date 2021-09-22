@@ -1,2 +1,12 @@
-# NLG-Chatbot
-The NLG chatbot presents structured data in an unstructured manner to the user. It can answer greetings, anything nice (thank you, I love you, you're wonderful). It can pass a quote, pass a joke, and schedule a  appointment where it asks about the time, date, and for what reason the appointment is, then sends a confirmation message.
+# install:
+pip3 install -r rereuirements.txt 
+
+# Run:
+~~`python app.py`~~ 
+
+`gunicorn app:app`
+
+# configure:
+
+configure dialogflow using help from agent.json file. (Agent.json file is credentialsfile downloaded once setup Dialogflow. Open browser http://127.0.0.1:5000 to use the app
+
